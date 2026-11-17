@@ -1,0 +1,12 @@
+<section class="contact-section" id="contact"><div class="container">
+  <div class="contact-heading"><p class="section-eyebrow">GET IN TOUCH</p><h2 class="section-title">Let's talk about plants.</h2><p>Have a question? Send us a message and we'll be happy to hear from you.</p></div>
+  <div class="row justify-content-center"><div class="col-lg-8">
+    <form class="contact-form" (submit)="$event.preventDefault()"><div class="row g-3">
+      <div class="col-md-6"><label for="contactName" class="form-label">Your name</label><input id="contactName" name="name" type="text" class="form-control" placeholder="Enter your name" required></div>
+      <div class="col-md-6"><label for="contactEmail" class="form-label">Email address</label><input id="contactEmail" name="email" type="email" class="form-control" placeholder="name@example.com" required></div>
+      <div class="col-12"><label for="contactSubject" class="form-label">Subject</label><input id="contactSubject" name="subject" type="text" class="form-control" placeholder="How can we help?"></div>
+      <div class="col-12"><label for="contactMessage" class="form-label">Message</label><textarea id="contactMessage" name="message" rows="5" class="form-control" placeholder="Write your message..." required></textarea></div>
+      <div class="col-12"><button type="submit" class="btn send-btn"><i class="fa-solid fa-paper-plane"></i> Send message <i class="fa-solid fa-arrow-right"></i></button></div>
+    </div></form>
+  </div></div>
+</div></section>

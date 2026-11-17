@@ -1,0 +1,7 @@
+.contact-section{padding:90px 0;background:#f6f8f2}.contact-heading{max-width:650px;margin:0 auto 38px;text-align:center}
+.contact-heading>p:last-child{color:#68736a;line-height:1.7}.contact-form{padding:35px;background:#fff;border:1px solid #edf0e9;border-radius:14px;box-shadow:0 12px 35px rgba(32,57,38,.06)}
+.contact-form .form-label{color:#294a35;font-weight:650}.contact-form .form-control{min-height:48px;padding:12px 14px;border-color:#dce4d8;border-radius:7px}
+.contact-form textarea.form-control{min-height:140px}.contact-form .form-control:focus{border-color:#78966e;box-shadow:0 0 0 .2rem rgba(120,150,110,.16)}
+.send-btn{display:inline-flex;align-items:center;gap:10px;padding:13px 22px;color:#fff;background:#294a35;border:0;border-radius:7px;font-weight:700;transition:background .2s}
+.send-btn:hover{color:#fff;background:#78966e}
+@media(max-width:575.98px){.contact-section{padding:65px 0}.contact-form{padding:22px}}
